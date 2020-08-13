@@ -1,0 +1,27 @@
+{
+    "_id": "7bad79ef-ef6f-4499-ab72-fa71679cc166",
+    "barcodes": [ "coke1", "code2" ],
+    "inactive": false,    
+    "name": "Coke Orange 1",
+    "category": "Drinks",
+    "printName": "Coke S 1.5",
+    "taxId": "5f2d0db18eac48431021c052",
+    "brand": { "id": "232", "name": "F&N", "manufacturerName": "F&N Sdn Bhd" },
+    "price": { "numberDecimal": "0.8" },
+    "sku": "11233",
+    "tags": [],
+    "description": "Coke Bottle",
+    "isReturnable": true,
+    "tax": {
+        "name": "Tax 27 Edited lagi",
+        "code": "T6 Edited",
+        "inclusive": true,
+        "hideTax": false,
+        "percentage": "[Object]",
+        "inactive": false,
+        "createdAt": "2020-08-07T08:15:45.350Z",
+        "updatedAt": "2020-08-07T08:27:12.986Z"
+    },
+    "createdAt": "2020-08-07T08:34:58.049Z",
+    "updatedAt": "2020-08-07T08:34:58.049Z"
+}

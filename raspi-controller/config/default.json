@@ -1,0 +1,32 @@
+{
+    "port":8082,
+    "siteID": "RYB001",
+    "socketServerURL" : "http://localhost:8081",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjE2ZWI4ODBhYWU1NWNmZTA4ZmRiNjAwY2Y5ZDcyMmRiIiwidXNlcm5hbWUiOiJFTFlBTkFAU0FQVVJBRU5FUkdZLkNPTSIsInNpdGVJRCI6IkVMWUFOQV9TSVRFIiwiZXh0cmFjdG9yIjp0cnVlLCJvcGVyYXRvcklkIjoiRUxZQU5BX1NJVEVfb3BlcmF0b3JJZCIsInJvbGVzIjpbIlBPUy1DT05UUk9MTEVSIl0sImlhdCI6MTU5NzEzNTE2MywiZXhwIjoxOTEyNDk1MTYzLCJpc3MiOiJiYXJ1cG9zIn0.Mhal5JvSbDzCq8t0hRbdOed4seQlXtW1KFWF95Xq-98",
+    "socketServerPath":"",
+    "allowedGuiClients": [
+      {
+        "id": "58c1c740-2dbd-4c95-bce0-2d6ea4e2aa1c",
+        "name": "pos-001"
+      },
+      {
+        "id": "318572bb-3dcf-415b-9b1b-4e86c5bea4c2",
+        "name": "pos-002"
+      }  
+    ],
+    "database": "mongodb://localhost:27017/baru-pos",
+    "corsDomain":["http://127.0.0.1:8081","http://*:8081", "http://localhost:8080", "http://localhost:8081"],
+
+    "mailer":{
+      "transport":{
+        "service":"gmail",
+        "port":587,
+        "auth": {
+          "user": "extractor@gmail.com",
+          "pass": "todo"
+        }
+      },
+      "from":"extractor <extractor@gmail.com>",
+      "replyTo":"extractor@extractor.com"
+    }  
+  }
